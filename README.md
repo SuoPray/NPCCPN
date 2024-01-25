@@ -1,1 +1,1 @@
-# NPCCPN
+Inspired by the atomic chain reaction in physics, a "Non-parameter Clustering Algorithm based on Chain Propagation and Natural Neighbor" is proposed. The algorithm utilizes the structural characteristics of the data points in the dataset to calculate the importance of the data points, simplify the data, and select the core data points for clustering.
