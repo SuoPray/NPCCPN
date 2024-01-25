@@ -472,7 +472,18 @@ def getParameter(clustering, N, data_path, clean_list):
 if __name__ == '__main__':
     start_time = time.time()
 
-    # data_path = '2sp2glob.csv' 
+    data_path = '.\experimentData/data/2sp2glob.csv' #
+    # data_path = '.\experimentData/data/3N_3.1_2.csv' #
+    # data_path = '.\experimentData/data/banana.csv'  #
+    # data_path = '.\experimentData/data/Is.mat' #
+    # data_path = '.\experimentData/data/R15.csv' #
+    # data_path = '.\experimentData/data/smile3.csv' #
+    # data_path = '.\experimentData/data/compound.mat' #
+    # data_path = '.\experimentData/data/triangle1.csv' #
+    # data_path = '.\experimentData/data/yuan_1500.mat' #
+    # data_path = '.\experimentData/data/yueya_2000.mat' #
+    # data_path = '.\experimentData/data/cluto-t5-8k.csv'  #
+    # data_path = '.\experimentData/data/zelnik4.csv'  #
 
     data = np.asarray(data_load(data_path))
 
