@@ -472,23 +472,7 @@ def getParameter(clustering, N, data_path, clean_list):
 if __name__ == '__main__':
     start_time = time.time()
 
-    # data_path = '..\clustering-code-master\experimentData\classicShapeDataset/2sp2glob.csv' #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/3N_3.1_2.csv' #
-    # data_path = '..\clustering-code-master\experimentData/classicShapeDataset/banana.csv'  #
-    # data_path = '..\clustering-code-master\experimentData\synthetic\Is.mat' #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/R15.csv' #
-    # data_path = '..\clustering-code-master/experimentData/health/smile3.csv' #
-    # data_path = '..\clustering-code-master\experimentData\health\compound.mat' #
-    # data_path = '..\clustering-code-master\experimentData/triangle1.csv' #
-    # data_path = '..\clustering-code-master\experimentData/yuan_1500.mat' #
-    # data_path = '..\clustering-code-master\experimentData\mat\yueya_2000.mat' #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/cluto-t5-8k.csv'  #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/zelnik4.csv'  #
-
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/cluto-t7-10k.csv' #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/t48k_cluster=6.csv'  #
-    # data_path = '..\clustering-code-master\experimentData/noiseDataset/cure-t2-4k.csv'  #
-
+    # data_path = '2sp2glob.csv' 
 
     data = np.asarray(data_load(data_path))
 
