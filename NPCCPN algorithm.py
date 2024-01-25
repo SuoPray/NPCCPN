@@ -489,17 +489,6 @@ if __name__ == '__main__':
     # data_path = '..\clustering-code-master\experimentData/noiseDataset/t48k_cluster=6.csv'  #
     # data_path = '..\clustering-code-master\experimentData/noiseDataset/cure-t2-4k.csv'  #
 
-    data_path = r'..\clustering-code-master\UnequalData/australian.mat' #
-    # data_path = '..\clustering-code-master\experimentData\mat/banknot_2.mat'#
-    # data_path = '..\clustering-code-master\experimentData\mat/CMC.mat' #
-    # data_path = '..\clustering-code-master\experimentData\mat/Diabetes.mat' #
-    # data_path = r'..\clustering-code-master\UnequalData/Exactly.mat' #
-    # data_path = r'..\clustering-code-master\UnequalData/KrvskpEW.mat' #
-    # data_path = r'..\clustering-code-master\UnequalData/Spectf.mat'  #
-    # data_path = r'..\clustering-code-master\UnequalData/wqbc.mat'  #
-    # data_path = r'..\clustering-code-master\UnequalData/Haberman.mat' #
-    # data_path = r'..\clustering-code-master\UnequalData/X8D5K.mat'  #
-
 
     data = np.asarray(data_load(data_path))
 
